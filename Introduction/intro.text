@@ -1,0 +1,37 @@
+1. What is DP?
+Ans : Technique to solve overlapping subproblems and optimal structures
+optimal structures -> Min,Max,Largest
+
+Dp Simply Means -> Recursion + Storage
+
+Types of Dp
+1. Memozations (Top Down)
+2. Tabulation (Bottom Up)
+
+Steps To Solve Any DP Problmes
+
+1.Recursion ---> 2. Recursion + Memozations ---> 3. Tabulation ---> 4. Space Optimization
+
+----> Steps To Make Recursion To Recursion + Memozations (Top Down)
+
+Steps 1 : Create Dp Array inside the main Function and Pass In Function as Parameter
+Qsn -> How To identify Which types of Dimension array use 1D,2D,3D?
+Ans -> Just The Changing Parameter of Function in Recursion Code :-> Means Jitna Parameter Change Ho Raha Hai Utne Dimension Ka Array Lagega.
+
+Steps 2 : Store the ans in DP Array
+
+Steps 3 : Check ( Just After The Base Case )if the Dp Array already has answer,if yes then return true.
+
+Steps 4 return the ans
+
+
+----> Steps To Make Recursion + Memozations To Tabulation (Bottom Up)
+
+Steps 1 : Create Dp Array inside the Function.
+
+Steps 2 : Base Case analysis of Recursion code and Update the Dp Array Accordingly.
+
+Steps 3 : Find the range for the creating variable and Copy Paste (Recursion + Memozations) The Inside The Range then Rename the Function to DP.
+
+Steps 4 : return the ans
+
